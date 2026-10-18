@@ -2,7 +2,7 @@
 
 Student project for learning Cursor. Owner: **MD**.
 
-Human notes for this folder. Cursor Agent reads **`AGENTS.md`** (and `.cursor/rules`) automatically — not this file.
+Human Cursor notes. Humans start at **`README.md`**. Cursor Agent reads **`AGENTS.md`** (and `.cursor/rules`) automatically — not this file.
 
 ## Tech stack
 
@@ -44,8 +44,9 @@ Stay on this stack. Do not add a second framework.
 
 ```
 test-project/
+  README.md              human project overview
   AGENTS.md              Cursor project guide
-  cursor.md              this file (human notes)
+  cursor.md              this file (human Cursor notes)
   .cursor/rules/         always-on / file-specific rules
   app/                   Next.js App Router
   components/            reusable UI
@@ -102,4 +103,5 @@ MD often writes in Bangla / Banglish. Reply in the same language as the request.
 ## Current status
 
 - Stack is decided: **Node.js + TypeScript + Next.js**
+- `README.md` is the human overview; Agent still follows `AGENTS.md`
 - App files are not scaffolded yet — add the Next.js app when MD asks

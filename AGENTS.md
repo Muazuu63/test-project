@@ -2,7 +2,7 @@
 
 Student repo for learning Cursor. Owner: **MD**.
 
-`cursor.md` is a human notes file. This `AGENTS.md` is what Cursor Agent should follow.
+`README.md` is the human project overview. `cursor.md` is extra Cursor notes. This `AGENTS.md` is what Cursor Agent should follow.
 
 ## Tech stack
 
@@ -43,14 +43,15 @@ MD often writes in Bangla or Banglish. Reply in the same language as the request
 ## Layout
 
 ```
+README.md            human project overview
+AGENTS.md            this guide
+cursor.md            human Cursor notes
+.cursor/rules/       Cursor rules
 app/                 Next.js App Router (pages, layouts, API route handlers)
 components/          reusable UI
 lib/                 helpers, server utilities
 public/              static assets
 types/               shared TypeScript types
-.cursor/rules/       Cursor rules
-AGENTS.md            this guide
-cursor.md            human notes
 ```
 
 Keep `package.json`, `tsconfig.json`, `next.config.ts`, `.gitignore`, and `.env.example`. Never commit real `.env` values.
