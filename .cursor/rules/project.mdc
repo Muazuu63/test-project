@@ -1,0 +1,14 @@
+---
+description: Core project guide for the Next.js TypeScript app
+alwaysApply: true
+---
+
+# test-project
+
+Follow root `AGENTS.md`.
+
+- Stack: Node.js, TypeScript, Next.js App Router. No other framework.
+- New app files: `.ts` / `.tsx` only.
+- Owner is MD (student). Match the request language (often Bangla/Banglish).
+- Do only the asked task. Prefer editing existing files.
+- Commit/push only when MD asks. Never commit secrets.

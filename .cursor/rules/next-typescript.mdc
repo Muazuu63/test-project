@@ -1,0 +1,14 @@
+---
+description: Next.js App Router and TypeScript conventions
+globs: "**/*.{ts,tsx}"
+alwaysApply: false
+---
+
+# Next.js + TypeScript
+
+- Use the App Router (`app/`). Do not add `pages/` routes.
+- Server Components by default. `"use client"` only for state, effects, or browser APIs.
+- Route handlers live in `app/**/route.ts`.
+- Prefer `next/link` and `next/image` over raw `<a>` / `<img>` for app navigation and images.
+- Type props and function returns. Avoid `any` unless a one-line comment explains why.
+- Colocate component-specific types next to the component; shared types go in `types/`.
